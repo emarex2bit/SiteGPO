@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corso Online</title>
+
+    <link rel="stylesheet" href="BootStrap/css/bootstrap.css">
+    <link rel="stylesheet" href="BootStrap/icons-1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="Assets/Images/space.png">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid justify-content-between">
+            <a class="navbar-brand d-flex" href="index.html">
+                <i class="bi bi-house-fill pe-2 h1"></i>
+            </a>
+            <h1 class="h1 m-1">VAN TIR Paybak Period</h1>
+            <div class="navbar-nav justify-content-center d-none d-lg-flex flex-row ms-xl-5">
+                <div class="nav-item h4 px-5">
+                    <a class="nav-link active" aria-current="page" href="Lesson3.html">Lezione Precedente</a>
+                </div>
+                <div class="nav-item h4">
+                    <a class="nav-link active" aria-current="page" href="https://docs.google.com/forms/d/e/1FAIpQLSdGOsz8AAAR3Zs7Dy7uf6hkQ7lHSqjEhlA8zEGYH2EAwEZG1g/viewform?usp=sf_link">Test</a>
+                </div>
+
+
+            </div>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasLightNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-item pb-4" href="Lesson3.html">Lezione Precedente</a>
+                            <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdGOsz8AAAR3Zs7Dy7uf6hkQ7lHSqjEhlA8zEGYH2EAwEZG1g/viewform?usp=sf_link">Quiz</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" style="background-image: url(Assets/Images/Background25.jpg);">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-8 m-5 bg-light p-3 pb-5 rounded onlyBlur"  style="transition: all 0.4s;">
+                    <div class="ratio ratio-16x9">
+                        <video src="Assets/Videos/Spiegazione_Vendemini.mp4" class="object-fit-contain" controls></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid justify-content-center row  pb-5 hidden"  style="transition: all 0.4s;">
+            <div class="col-5">
+                <img class="img-fluid rounded" src="Assets/Images/Checklist.jpg" alt="Title" />
+            </div>
+            <div class="col-sm-3 mb-2 mb-sm-0"> 
+                <div class="card mb-2 hidden"  style="transition: all 0.4s;">
+                    <div class="card-body">
+                        <h5 class="card-title">Quiz</h5>
+                        <p class="card-text">Svolgi il quiz prima di passare alla prossima lezione o torna qui successivamente</p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGOsz8AAAR3Zs7Dy7uf6hkQ7lHSqjEhlA8zEGYH2EAwEZG1g/viewform?usp=sf_link" class="btn btn-primary"
+                            style="background-color: blueviolet; border-color: blueviolet;">Modulo Google</a>
+                    </div>
+                </div>
+            </div>
+            
+
+
+        </div>
+        <div class="container-fluid justify-content-center onlyBlur">
+            <div class="container-fluid  row justify-content-center">
+                <h1 class="col-8 display-5 py-2 m-2 bg-light rounded fw-bold text-center text-dark">
+                    Un aiuto dalle AI
+                </h1>
+            </div>
+            
+        </div>
+
+        <div class="container-fluid onlyBlur"  style="transition: all 0.4s;">
+            <div class="row justify-content-center">
+                <div class="col-8 m-5 bg-light p-3 pb-5 rounded">
+                    <div class="ratio ratio-16x9">
+                        <video src="Assets/Videos/AI_Vendemini.mp4" class="object-fit-contain" controls></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid  row justify-content-center onlyBlur">
+            <h1 class="col-8 display-5 py-2 m-2 rounded fw-bold text-center text-dark" style="font-family: cursive;">
+                Emanuele Vendemini
+            </h1>
+        </div>
+    </div>
+
+    <script src="BootStrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
